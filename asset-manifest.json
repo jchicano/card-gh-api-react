@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/card-gh-api-react/static/css/main.1bad60cd.chunk.css",
+    "main.js": "/card-gh-api-react/static/js/main.b6ad12f7.chunk.js",
+    "main.js.map": "/card-gh-api-react/static/js/main.b6ad12f7.chunk.js.map",
+    "runtime-main.js": "/card-gh-api-react/static/js/runtime-main.fae0a76c.js",
+    "runtime-main.js.map": "/card-gh-api-react/static/js/runtime-main.fae0a76c.js.map",
+    "static/js/2.9cc393d4.chunk.js": "/card-gh-api-react/static/js/2.9cc393d4.chunk.js",
+    "static/js/2.9cc393d4.chunk.js.map": "/card-gh-api-react/static/js/2.9cc393d4.chunk.js.map",
+    "index.html": "/card-gh-api-react/index.html",
+    "precache-manifest.aae13deaf31099627d5f48aa7a21389f.js": "/card-gh-api-react/precache-manifest.aae13deaf31099627d5f48aa7a21389f.js",
+    "service-worker.js": "/card-gh-api-react/service-worker.js",
+    "static/css/main.1bad60cd.chunk.css.map": "/card-gh-api-react/static/css/main.1bad60cd.chunk.css.map",
+    "static/js/2.9cc393d4.chunk.js.LICENSE.txt": "/card-gh-api-react/static/js/2.9cc393d4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fae0a76c.js",
+    "static/js/2.9cc393d4.chunk.js",
+    "static/css/main.1bad60cd.chunk.css",
+    "static/js/main.b6ad12f7.chunk.js"
+  ]
+}
