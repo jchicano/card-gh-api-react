@@ -1,0 +1,165 @@
+body {
+  background: #222831;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+}
+.box-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-top: 40px;
+  z-index: 1;
+}
+.box {
+  position: relative;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 4px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 1px rgba(0, 0, 0, 0.1);
+  width: 380px;
+  background: #ececec;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 65px;
+}
+.box-inner {
+  padding: 30px;
+}
+.avatar {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 3px #30475e, 0 0 0 8px #ececec;
+  box-shadow: 0 0 0 3px #30475e, 0 0 0 8px #ececec;
+  top: -75px;
+  margin-left: -75px;
+  left: 50%;
+  position: absolute;
+}
+.avatar img {
+  width: 150px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.name {
+  font-size: 38px;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 2px;
+  color: #3a3a3a;
+}
+.company {
+  font-size: 18px;
+  font-style: italic;
+  color: #707070;
+  margin-bottom: 2px;
+}
+.location {
+  color: #b3b3b3;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #222831;
+}
+.location .fa {
+  color: #c6c6c6;
+  margin-right: 4px;
+}
+
+.profile-stats {
+  text-align: center;
+  padding-top: 0.3em;
+  border-radius: 0 0 0.3125rem 0.3125rem;
+}
+.profile-stats ul {
+  direction: ltr;
+  padding: 0;
+}
+.profile-stats li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 1rem;
+}
+.profile-stats li:last-child {
+  margin-right: 0;
+}
+.profile-stats a {
+  color: #f2a365;
+  text-decoration: none;
+}
+.profile-stats i {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+  display: block;
+}
+.profile-stats span {
+  font-size: 18px;
+  color: #707070;
+}
+
+.search-container {
+  margin-top: 80px;
+}
+.searchbox {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s;
+  width: 50px;
+  height: 50px;
+  background: white;
+  box-sizing: border-box;
+  border-radius: 25px;
+  border: 4px solid white;
+  padding: 5px;
+  width: 380px;
+}
+.searchbox input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 42.5px;
+  line-height: 30px;
+  outline: 0;
+  border: 0;
+  display: none;
+  font-size: 1em;
+  border-radius: 20px;
+  padding: 0 20px;
+  display: block;
+  text-align: center;
+}
+.bottom {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #b4c4c8;
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.bottom a {
+  color: #ececec;
+}
